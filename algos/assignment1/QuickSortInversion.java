@@ -36,8 +36,7 @@ public class QuickSortInversion {
     {
         if (low < high)
         {
-            /* p is partitioning index, arr[p] is
-              now at right place */
+            // Calculate the partition
             int p = partition(arr, low, high);
 
             // Recursively sort elements before

@@ -63,6 +63,8 @@ public class MergeSortInversion {
                 i++;
             } else {
                 array[k] = rightArray[j];
+
+                // The left and right arrays are already sorted so all values in the right array need to be moved
                 invCount += (mid - i + 1 - start);
                 j++;
             }
